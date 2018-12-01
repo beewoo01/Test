@@ -6,7 +6,7 @@ public class Select {
 	public final String ip = "jdbc:oracle:thin:@192.168.100.121:1521:xe";
 	public final String id="STU";
 	public final String pw="STU";
-	
+	  
 	Connection conn;
 	
 	public void init() {

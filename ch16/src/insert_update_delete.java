@@ -9,8 +9,7 @@ public class insert_update_delete {
 	public final String ip = "jdbc:oracle:thin:@192.168.100.121:1521:xe";
 	public final String id="STU";
 	public final String pw="STU";
-	
-	Connection conn;
+	Connection conn;  
 	Scanner sc = new Scanner(System.in);
 	
 	public void init() {
